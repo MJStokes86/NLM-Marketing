@@ -262,7 +262,7 @@
 
   	.img-bg {
   		overflow: hidden;
-  		height: auto !important;
+  		height: auto !important`;
   		max-width: 100%;
   		width: 100%;
 
@@ -279,9 +279,8 @@
 	
 
   	.img-bg2  {
-
-  		height: 700px;
-  		overflow: hidden;
+		height: auto !important`;
+  		max-width: 100%;
   		width: 100%;
   		
   		
