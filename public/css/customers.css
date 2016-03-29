@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,500);
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:900);
+@import url(https://fonts.googleapis.com/css?family=Timmana);
+
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+
+.navbar {
+	padding: 20px 50px;
+}
+
+.navbar-img {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: -50px;
+	left: -75px;
+
+}
+
+
+.navbar li {
+	position: relative;
+	left: 30%;
+	padding: 5px;
+	color: #fff;
+
+}
+
+ .navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+ 	border-bottom: 2px solid #fff;
+ 	background: none;
+ 	box-shadow: none;
+ }
+
+
+.navbar-gray {
+	background:  #B8A798;
+	opacity:0.9;
+
+}
+
+.navbar-text-color li a {
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.navbar-text-color li a:hover{
+	color:  #550000 !important;
+	-webkit-transition: color 0.5s linear; 
+    -moz-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+     transition: color 0.5s linear;
+}
+
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+}
+
+.content {
+	height: 800px;
+	background-color: #fff;
+	margin-bottom: -100px;
+}
+
+.img-bg {
+	height: 1000px;
+	padding: 300px;
+	background: /*linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)) ,*/ url('/images/171787895.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
+.img-bg h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 2px 2px #000;
+}
+
+.img-bg2 {
+	padding: 300px;
+	background: /*linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)) ,*/ url('/images/76098694.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.content2 {
+	background-color: #282829;
+}
+
+.content2 h1 {
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 2px 2px #000;
+	text-transform: uppercase;
+}
+
+
+
+.content3 {
+	background: #fff;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.content3 h1, h3 {
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 2px 2px #000;
+	text-transform: uppercase;
+}
+
+
+
+.content4 {
+	text-align: center;
+	background-color: #282829;
+	color: #fff;
+}
+
+.content4 h1 {
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 2px 2px #000;
+	text-transform: uppercase;
+}
+
+
+.content4 hr {
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+
+.logos {
+	background-color: #fff;
+}
+
+img {
+	height: 50px;
+	width: 100px;
+	display: inline-block;
+	
+}
+
+#logos {
+	list-style: none;
+	text-align: center;
+	
+}
+
+#logos li{
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: #282829;
+}
+
+@media only screen and (max-width: 48em) {
+
+	.img-bg h1 {
+		position: absolute;
+		left: 20%;
+	}
+
+	.img-bg2 h1 {
+		position: absolute;
+		top: 200px;
+		left: 20%;
+		
+	}
+
+
+
+	.navbar li {
+	text-align: center;
+	position: relative;
+	left: 10%;
+	
+}
+
+
+.img-bg2 img {
+	position: relative;
+	left: -50%;
+	top: 50%;
+}
+
+
+.navbar-nav {
+	overflow: hidden;
+
+}
+}
+
+
+@media only screen /*iphone */ 
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+	.navbar-img {
+		height: 100px;
+		width: 100px;
+		position: relative;
+		top: -50px;
+		left: -50px;
+
+	}
+
+	.navbar {
+		padding: 10px 25px;
+	}
+
+	.img-bg {
+		height: 1000px;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.img-bg h1 {
+		font-size: 40px;
+		margin-left: -50px;
+		margin-top: -100px;
+	}
+
+
+	.content2{
+		margin-top: 300px;
+	}
+
+	.img-bg2 {
+		height: 1500px;
+		display:inline-block;
+		overflow: hidden;
+	}
+
+	.img-bg2 h1  {
+		margin-left: -50px;
+	}
+
+	.content3 hr {
+		margin-left: -1000px;
+	}
+
+	.content3 h3 {
+		margin-left: -450px;
+
+	}
+
+	.content3  img {
+		margin-left: -430px;
+		display: inline-block;
+	}
+
+	.content4 {
+		margin-top: 0;
+		height: 1000px;
+	}
+
+
+
+
+
+	
+}
+

@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+
+.navbar {
+	padding: 20px 50px;
+}
+
+.navbar-img {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: -50px;
+	left: 0;
+
+}
+
+
+.navbar li {
+	position: relative;
+	left: 50%;
+	padding: 5px;
+	color: #fff;
+
+}
+
+ .navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+ 	border-bottom: 2px solid #fff;
+ 	background: none;
+ 	box-shadow: none;
+ }
+
+
+.navbar-gray {
+	background:  #550000;
+	opacity:0.9;
+
+}
+
+.navbar-text-color li a {
+	color: #fff !important;
+}
+
+.navbar-text-color li a:hover{
+	color:  #7dd000 !important;
+	-webkit-transition: color 0.5s linear; 
+    -moz-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+     transition: color 0.5s linear;
+}
+
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+}
+
+.content {
+	height: 600px;
+}
+
+.content h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+}
+
+.content2 {
+	height: 100px;
+	background-color: #282829;
+}
+
+.content2 h1 {
+	/*position: absolute;*/
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0;
+ 	line-height: 50px;
+ 	text-align: center;
+ 	-moz-transform:translateX(100%);
+ 	-webkit-transform:translateX(100%);	
+	 transform:translateX(100%);
+	  -moz-animation: content2 15s linear infinite;
+ -webkit-animation:content2 15s linear infinite;
+ animation: content2 15s linear infinite;
+ color: #fff;
+ text-transform: uppercase;
+
+}
+
+@-moz-keyframes content2 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes content2 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes content2 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+
+
+.img-bg {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/supermarket-aisle.jpg');
+	background-size: cover;
+	padding: 300px;
+
+}
+
+#owl-demo {
+	width: 50%;
+	height: 50%;
+}
+
+
+
+#owl-demo .item h1 {
+	color: #000;
+	text-align: center;
+	display: block;
+
+}
+
+
+
+.contact-row  {
+	margin-top: 0;
+	background-color: #282829;
+	padding-bottom: 500px;
+	padding-top: 100px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+
+.contact-row h2 {
+	text-transform: uppercase;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: #282829;
+}
+
+.form-group .form-control {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0;
+	color: #000;
+}
+
+#button {
+	position: absolute;
+	left: 47%;
+	background-color: #fff;
+	padding: 20px;
+	color: #000;
+}
+
+@media only screen and (max-width: 48em)  { 
+
+	.img-bg {
+		height: 1500px;
+	}
+
+	.img-bg h1 {
+		position: absolute;
+
+	}
+
+	.content2 {
+		height: 200px;
+	}
+
+	.footer {
+		position: relative;
+		bottom: -1050px;
+		padding: 50px;
+	}
+
+	.navbar li {
+	text-align: center;
+	position: relative;
+	left: 10%;
+	
+}
+
+.navbar-nav {
+	overflow: hidden;
+
+}
+}
+
+

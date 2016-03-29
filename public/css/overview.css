@@ -1,0 +1,348 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,500);
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:900);
+@import url(https://fonts.googleapis.com/css?family=Timmana);
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+
+.navbar {
+	padding: 20px 50px;
+}
+
+.navbar-img {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: -50px;
+	left: -75px;
+
+}
+
+
+.navbar li {
+	position: relative;
+	left: 30%;
+	padding: 5px;
+	color: #fff;
+
+}
+
+ .navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+ 	border-bottom: 2px solid #fff;
+ 	background: none;
+ 	box-shadow: none;
+ }
+
+
+.navbar-gray {
+	background:  #B8A798;
+	opacity:0.9;
+
+}
+
+.navbar-text-color li a {
+	color: #fff !important;
+	font-family: 'Arial';
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.navbar-text-color li a:hover{
+	color:  #550000 !important;
+	-webkit-transition: color 0.5s linear; 
+    -moz-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+     transition: color 0.5s linear;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+}
+
+.content {
+	height: 900px;
+	background-color:  #282829;
+
+	
+}
+
+/* .content2 {
+	height: 1000px;
+	background-color: #282829;
+
+} */
+
+
+.content p {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	padding: 20px 50px;
+	margin-top: 40px;
+	font-size: 25px;
+
+
+}
+
+.content3 {
+	height: 150px;
+	background-color:  #282829;
+}
+
+.content3 p {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	padding: 20px 50px;
+	margin-top: -20px;
+	font-size: 20px;
+
+
+}
+
+
+
+.img-bg {
+	height: 650px;
+	padding: 300px;
+	background: /*linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */ url('/images/341778467.JPG');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.img-bg p {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 35px;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 2px 2px #000;
+	position: absolute;
+	top: 30%;
+    left: 5%;
+
+
+}
+
+.img-bg2 {
+	padding: 300px;
+	background: /*linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */ url('/images/IMG_4327.JPG');
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
+.img-bg2 p {
+
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Work Sans', sans-serif;	
+	text-shadow: 2px 2px #000;
+	
+
+
+
+}
+
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: #282829;
+}
+
+
+@media only screen and (max-width: 48em)  { 
+
+
+	.img-bg {
+		height: 700px;
+	}
+
+  	.img-bg p {
+		font-size: 2em !important;
+		position: absolute;
+		top: 250px;
+		text-align: center;
+		left: 50px;
+  		
+  	}
+
+  	.content p {
+  		font-size: 1.3em;
+  		margin-top: 0;
+
+  	}
+
+  	.img-bg2 {
+  		height: 900px;
+  	}
+
+  	.img-bg2 p {
+
+  		font-size: 1.5em;
+  		font-family: 'Work Sans', sans-serif;
+		position: absolute;
+		top: 1100px;
+		text-align: center;
+		left: 50px;
+		
+  	}
+
+  	.content3 {
+  		height: 300px;
+  	}
+
+
+
+  	.content3 p {
+  		margin-top: 100px;
+  		font-size: 1.3em;
+
+  	}
+
+  	.navbar li {
+	text-align: center;
+	position: relative;
+	left: 10%;
+	
+}
+
+.navbar-nav {
+	overflow: hidden;
+
+}
+
+.footer {
+
+	margin-top:0;
+	background-color:#282829 ;
+
+}
+
+
+
+  
+}
+
+@media only screen /*iPhone 4 and iphone 4s */
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+  	.navbar-img {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: -40px;
+	left: -50px;
+
+}
+
+
+
+  	.navbar {
+	padding: 20px 25px;
+	margin-top: 0;
+	
+}
+
+  	.img-bg {
+  		overflow: hidden;
+  		height: 500px;
+  		background-image: url('/images/341778467.JPG');
+  		 background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  		
+  	}
+
+  #img-pg p {
+  	font-size: 20px !important;
+  	margin-top: -100px;
+
+
+  }
+
+	
+
+  	.img-bg2  {
+
+  		height: 700px;
+  		overflow: hidden;
+  		width: 100%;
+  		
+  		
+	  
+  	}
+
+
+  	.img-bg2 p {
+  		font-size: 15px;
+  	}
+
+
+
+  	.content {
+  		overflow: hidden;
+	width: 100%;
+
+  
+  		
+  	}
+
+  	.content p {
+  		font-size: 10px !important;
+  		margin-top: 80px;
+  	}
+
+  	.content2 {
+	overflow: hidden;
+	width: 100%;
+	
+}
+
+
+  
+  	.content3 {
+	overflow: hidden;
+	width: 100%;
+	height: 800px;
+
+}
+
+.content3 p {
+	margin-top: 100px;
+}
+
+
+
+
+
+  	.footer {
+  		overflow: hidden;
+	    width: 100%;
+  		margin-top:0;
+
+  	}
+
+  	}
+
+

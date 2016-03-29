@@ -1,0 +1,397 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,500);
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:900);
+@import url(https://fonts.googleapis.com/css?family=Timmana);
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+.navbar-img {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: -50px;
+	left: -75px;
+
+}
+
+
+.navbar {
+	padding: 20px 50px;
+}
+
+.navbar li {
+	position: relative;
+	left: 30%;
+	padding: 5px;
+	color: #fff;
+
+}
+
+ .navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+ 	border-bottom: 2px solid #fff;
+ 	background: none;
+ 	box-shadow: none;
+ }
+
+ /*.navbar-default .navbar-nav  li a:hover{
+ 	border-bottom: 2px solid #fff;
+ 
+ 	
+ }*/
+
+
+.navbar-color {
+	background: #B8A798;
+	opacity:0.9;
+
+}
+
+.navbar-text-color li a {
+	color: #fff !important;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  font-size: 15px;
+  /*text-shadow: 2px 1px #000*/;
+
+
+}
+
+.navbar-text-color li a:hover {
+	color:  #550000 !important;
+	-webkit-transition: color 0.5s linear; 
+    -moz-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+     transition: color 0.5s linear;
+}
+
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+}
+
+
+.img-bg {
+  height: 650px;
+	padding: 300px;
+	background: /*linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),*/ url('/images/143498980.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
+
+.img-bg  p {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff !important;
+	font-size: 50px !important;
+	font-family: 'Work Sans', sans-serif !important;
+  position: absolute;
+  text-shadow: 2px 2px #000;
+  top: 50%;
+  left: 17%;
+}
+
+.img-bg2 {
+	padding: 330px;
+	background:  /*linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),*/ url('/images/nyc1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.img-bg2  p {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 35px;
+	font-family: Arial;
+  text-shadow: 2px 2px #000;
+  margin-top: -100px;
+
+}
+
+
+
+.content {
+	height: 800px;
+	background-color: #212121;
+
+
+}
+
+
+.content p {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	font-family: Arial;
+	margin-top: 30px;
+}
+
+
+
+.content2 {
+	height: 900px;
+}
+
+
+#content {
+	padding: 200px;
+	background-color: #282829;
+	color: #fff;
+	text-align: center;
+
+
+}
+
+
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color:#282829;
+}
+
+
+@media only screen and (max-width: 48em)  { 
+
+
+  	.img-bg p {
+  		font-size: 3em !important;
+  		position: absolute;
+  		left: 5%;
+  		text-align: center;
+  		top: 200px;
+  	}
+
+    .content {
+      height: 900px;
+    }
+
+  	.content p {
+  		font-size: 1em;
+  		margin-top: 50px;
+  	}
+
+  	.content2 {
+	height: 650px;
+}
+
+
+  	.img-bg2 p {
+  		font-size: 2em;
+  		position: absolute; 
+  		left: 50px;
+
+  	}
+
+  	.footer {
+  		width: 102.4%;
+  		position: absolute;
+
+  		
+  	}
+
+    .navbar li {
+  text-align: center;
+  position: relative;
+  left: 10%;
+  
+}
+
+.navbar-nav {
+  overflow: hidden;
+
+}
+}
+
+
+
+
+
+@media only screen /*iPhone 4 and iphone 4s */
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.navbar-img {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: -50px;
+	left: -50px;
+
+}
+
+
+
+  	.navbar {
+	padding: 10px 25px;
+	
+}
+
+  	.img-bg {
+  		display:inline-block;
+  		overflow: hidden;
+  		
+  	}
+
+	#title {
+  		font-size: 30px !important;
+  		display: inline;
+  		left: 30px;
+  	}
+
+  	.img-bg2  {
+  		height: 1000px;
+  		overflow: hidden;
+  		width: 100%;
+  		
+  		
+	  
+  	}
+
+  	.content {
+  		overflow: hidden;
+	width: 100%;
+  
+  		
+  	}
+
+  	.content p {
+  		font-size: 15px !important;
+  		margin-top: 15px;
+  	}
+
+    #span-one, #span-two {
+      font-size: 1.7em !important;
+    }
+
+
+  	.content2 {
+	overflow: hidden;
+	width: 100%;
+
+}
+
+
+  	.content2 p {
+  		font-size: 1.5em;
+  	}
+
+  	.footer {
+  		overflow: hidden;
+	    width: 100%;
+  		position: absolute;
+
+  
+
+  		
+  	}
+
+  	}
+
+@media only screen /* iphone 5 and iphone 5s */
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+
+
+	.img-bg h1 {
+  		font-size: 3em;
+  		display: inline;
+  	}
+
+  	.content p {
+  		font-size: 2em;
+  		margin-top: 15px;
+  	}
+
+  	.content2 {
+	height: 1000px;
+}
+
+
+  	.content2 h4 {
+  		font-size: 2em;
+  	}
+
+  }
+
+
+  @media only screen /* iphone 6 */
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) {
+
+
+
+	.img-bg h1 {
+  		font-size: 3em;
+  		display: inline;
+  	}
+
+  	.content p {
+  		font-size: 2em;
+  		margin-top: 15px;
+  	}
+
+  	.content2 {
+	height: 1000px;
+}
+
+
+  	.content2 h4 {
+  		font-size: 2em;
+  	}
+
+  }  	
+
+
+  @media only screen /* For Tablets */
+  and (min-device-width : 600px)
+  and (max-device-width : 960px)
+  
+   {
+
+    
+    
+    #span-one, #span-two {
+      font-size: 1.7em !important;
+
+    }
+
+    .img-bg {
+     overflow: hidden;
+    }
+
+    .content {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .img-bg2 {
+      height: 1000px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+
+
+
+  
+
+  }
+
+
+
