@@ -308,32 +308,34 @@
  and (max-device-width: 480px) 
  and (-webkit-min-device-pixel-ratio: 2) {
 
- 	* {
- 		margin: 0;
- 		padding: 0;
- 	}
+ 	
 
  	.navbar-img {
 	height: 100px;
 	width: 100px;
 	position: relative;
-	top: -50px;
+	top: -40px;
 	left: -50px;
 
 }
 
 	.navbar {
-	padding: 10px 25px;
+	padding: 20px 25px;
+	margin-top: 0;
+	width: auto !important;
+
+
 	
 }
 
 
+.content {
+	width: auto !important;
+	overflow: hidden;
+}
 
- 	.img-bg {
- 		
- 		display: inline-block;
- 		overflow: hidden;
- 	}
+
+
 
 
  	.img-bg h1 {
@@ -357,6 +359,11 @@
  	.content2 p {
 		font-size: 18px;
 		margin-top: 0;
+ 	}
+
+ 	.content3 {
+ 		width: auto !important;
+ 		overflow: hidden;
  	}
 
  	.list h1 {
