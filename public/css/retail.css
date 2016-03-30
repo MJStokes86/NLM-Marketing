@@ -248,6 +248,51 @@
 
 }
 
+@media only screen /*iPhone 4 and iphone 4s */
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.navbar-img {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: -40px;
+	left: -50px;
+
+}
+
+
+
+  	.navbar {
+	padding: 20px 25px;
+	margin-top: 0;
+	
+}
+
+
+	.img-bg {
+  		overflow: hidden;
+  		height: auto !important`;
+  		max-width: 100%;
+  		width: 100%;
+
+  		
+  	}
+
+  .img-bg p {
+  	font-size: 15px !important;
+  	margin-top: -100px;
+
+
+  }
+
+
+
+
+
+}
+
 
 
 
