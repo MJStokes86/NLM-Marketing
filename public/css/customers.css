@@ -232,13 +232,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		height: 100px;
 		width: 100px;
 		position: relative;
-		top: -50px;
+		top: -40px;
 		left: -50px;
 
 	}
 
 	.navbar {
-		padding: 10px 25px;
+		padding: 20px 25px;
+		width: auto !important;
+		overflow: hidden;
+	}
+
+	.content {
+		width: auto !important;
+		overflow: hidden;
 	}
 
 	.img-bg {
@@ -268,6 +275,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		margin-left: -50px;
 	}
 
+	.content2 {
+		margin-top: 100px;
+	}
+
+	.content3 {
+		width: auto !important;
+		overflow: hidden;
+	}
+
 	.content3 hr {
 		margin-left: -1000px;
 	}
@@ -284,7 +300,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 	.content4 {
 		margin-top: 0;
-		height: 1000px;
+		
 	}
 
 
