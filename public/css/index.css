@@ -221,7 +221,7 @@ body {
 
 
 
-@media only screen /*iPhone 4 and iphone 4s */
+@media only screen /*iPhone*/
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -303,95 +303,41 @@ body {
 
   	}
 
-@media only screen /* iphone 5 and iphone 5s */
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px) {
 
+@media only screen /*Tablet*/
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-	.img-bg h1 {
-  		font-size: 3em;
-  		display: inline;
-  	}
+  .navbar-img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: -40px;
+  left: -50px;
 
-  	.content p {
-  		font-size: 2em;
-  		margin-top: 15px;
-  	}
-
-  	.content2 {
-	height: 1000px;
 }
 
 
-  	.content2 h4 {
-  		font-size: 2em;
-  	}
 
-  }
+    .navbar {
+  padding: 20px 25px;
+  
+}
 
-
-  @media only screen /* iphone 6 */
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) {
-
-
-
-	.img-bg h1 {
-  		font-size: 3em;
-  		display: inline;
-  	}
-
-  	.content p {
-  		font-size: 2em;
-  		margin-top: 15px;
-  	}
-
-  	.content2 {
-	height: 1000px;
+.navbar li a {
+  font-size: 0.9em;
 }
 
 
-  	.content2 h4 {
-  		font-size: 2em;
-  	}
+.img-bg2 {
+  height: 500px;
+}
 
-  }  	
-
-
-  @media only screen /* For Tablets */
-  and (min-device-width : 600px)
-  and (max-device-width : 960px)
-  
-   {
-
-    
-    
-    #span-one, #span-two {
-      font-size: 1.7em !important;
-
-    }
-
-    .img-bg {
-     overflow: hidden;
-    }
-
-    .content {
-      width: 100%;
-      overflow: hidden;
-    }
-
-    .img-bg2 {
-      height: 1000px;
-      width: 100%;
-      overflow: hidden;
-    }
+}
 
 
 
 
-  
 
-  }
-
-
-
+   
