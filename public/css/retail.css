@@ -281,10 +281,45 @@
   	}
 
   .img-bg p {
+  	font-size: 17px !important;
+  	margin-top: -200px;
+
+
+  }
+
+  .content {
+  	width: 100%;
+  	overflow: hidden;
+  }
+
+  .content2 {
+  	width: 100%;
+  	overflow: hidden;
+  }
+
+  .content2 p {
   	font-size: 15px !important;
-  	margin-top: -100px;
+  	margin-top: 30px;
+  }
 
+  .content3 {
+  	width: 100%;
+  	overflow: hidden;
+  }
 
+  .img-bg2 p {
+	font-size: 17px !important;
+	margin-top: -250px;
+
+  }
+
+  #key {
+  	height: 50px;
+  	width: 50px;
+  }
+
+  .content4 p {
+  	font-size: 15px !important;
   }
 
 
