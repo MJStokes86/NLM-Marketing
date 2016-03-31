@@ -177,6 +177,10 @@ img {
 	
 }
 
+.hideme {
+	opacity: 0;
+}
+
 
 
 .footer {
