@@ -208,7 +208,7 @@
 }
 
 
-@media only screen /*iPhone 4 and iphone 4s */
+@media only screen /*iPhone*/
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -267,5 +267,46 @@
 }
 
 }
+
+
+@media only screen /*iPad*/
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .navbar-img {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: -40px;
+  left: -50px;
+
+}
+
+
+
+    .navbar {
+  padding: 20px 25px;
+  
+}
+
+.navbar li a {
+  font-size: 0.9em;
+}
+
+
+.content2 h1 {
+
+-moz-transform:none;
+ 	-webkit-transform:none;	
+	 transform:none;
+	  -moz-animation: none;
+ -webkit-animation: none;
+ animation: none;
+}
+
+}
+
+
 
 
