@@ -168,6 +168,19 @@ body {
 @media only screen and (max-width: 48em)  { 
 
 
+  .img-bg {
+    height: 650px;
+    padding: 300px;
+    background:  url('/images/143498980.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+    }
+
+
+
   	.img-bg p {
   		font-size: 3em !important;
   		position: absolute;
@@ -188,6 +201,18 @@ body {
   	.content2 {
 	height: 650px;
 }
+
+
+ .img-bg2 {
+    height: 650px;
+    padding: 300px;
+    background:  url('/images/nyc1.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+    }
 
 
   	.img-bg2 p {
