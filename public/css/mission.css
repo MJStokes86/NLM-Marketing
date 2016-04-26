@@ -334,12 +334,21 @@
 	overflow: hidden;
 }
 
+	
+	.img-bg {
 
+	height: auto !important;
+	padding: 300px;
+	background:  url('/images/IMG_4341.JPG') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
+	
 
 
  	.img-bg h1 {
- 		font-size: 50px;
+ 		font-size: 40px;
  		margin-top: -100px;
  		margin-left: -50px;
  	}
@@ -347,10 +356,20 @@
  	.img-bg p {
  		margin-top: -20px;
  		margin-left: -50px;
+ 		font-size: 20px;
  	}
 
+ 	.img-bg2 {
+	padding: 330px;
+	background: url('/images/IMG_4314.JPG') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
  	.content2 {
- 		height: 800px;
+ 		height: 450px;
  		margin-top: -10px;
 
 
@@ -358,7 +377,7 @@
 
  	.content2 p {
 		font-size: 18px;
-		margin-top: 0;
+		margin-top: 80px;
  	}
 
  	.content3 {

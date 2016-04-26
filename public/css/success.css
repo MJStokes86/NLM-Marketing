@@ -237,6 +237,14 @@
 }
 
 
+.img-bg {
+	background: url('/images/supermarket-aisle.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
 .content {
 	width: 100%;
 	overflow: hidden;

@@ -169,7 +169,6 @@
 	.img-bg {
 	height: 650px;
 	padding: 300px;
-	background: url('/images/341778467.jpg') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 
@@ -268,7 +267,10 @@
 
   	.img-bg {
   		overflow: hidden;
-  		height: auto !important`;
+  		background: url('/images/341778467.jpg') no-repeat center center;
+	    background-size: cover;
+	    background-attachment: fixed;
+  		height: auto !important;
   		max-width: 100%;
   		width: 100%;
 
@@ -290,9 +292,9 @@
   		max-width: 100%;
   		width: 100%;
   		padding: 300px;
-	background: /*linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */ url('/images/IMG_4327.JPG') no-repeat center center;
-	background-size: cover;
-	background-attachment: fixed;
+	    background:  url('/images/IMG_4327.JPG') no-repeat center center;
+	    background-size: cover;
+	    background-attachment: fixed;
   		
   		
 	  
@@ -315,7 +317,7 @@
 
   	.content p {
   		font-size: 10px !important;
-  		margin-top: 80px;
+  		margin-top: 50px;
   	}
 
   	.content2 {

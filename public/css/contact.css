@@ -223,6 +223,13 @@
 }
 
 
+.img-bg {
+	background: url('/images/supermarket-aisle.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
 
   	.navbar {
 	padding: 20px 25px;
@@ -246,6 +253,7 @@
 
 .content2 {
 	width: 100%;
+
 }
 
 .content2 h1 {
@@ -256,7 +264,11 @@
 	  -moz-animation: none;
  -webkit-animation: none;
  animation: none;
+
+ font-size: 30px;
 }
+
+
 
 #button {
 	left: 37%;
