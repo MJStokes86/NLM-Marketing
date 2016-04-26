@@ -268,7 +268,7 @@
 
   	.img-bg {
   		overflow: hidden;
-  		background: url('/images/341778467.jpg') no-repeat center center;
+  		background: url('/images/341778467.jpg') no-repeat;
 	    background-attachment: fixed;
 	    -webkit-background-size: cover;
         -moz-background-size: cover;
