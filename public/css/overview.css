@@ -169,8 +169,9 @@
 	.img-bg {
 	height: 650px;
 	padding: 300px;
-	background-size: cover;
-	background-attachment: fixed;
+	 background:  url('/images/IMG_4327.JPG') no-repeat center center;
+	 background-size: cover;
+	 background-attachment: fixed;
 
 }
 
@@ -292,9 +293,7 @@
   		max-width: 100%;
   		width: 100%;
   		padding: 300px;
-	    background:  url('/images/IMG_4327.JPG') no-repeat center center;
-	    background-size: cover;
-	    background-attachment: fixed;
+	   
   		
   		
 	  
