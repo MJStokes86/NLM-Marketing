@@ -270,11 +270,8 @@
   		overflow: hidden;
   		background: url('/images/341778467.jpg') no-repeat center center;
 	    background-attachment: fixed;
-	    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
 	    background-size: cover;
-  		height: auto !important;
+  		height: 320px;
   		max-width: 100%;
   		width: 100%;
   		z-index: -1;
