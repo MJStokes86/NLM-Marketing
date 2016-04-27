@@ -270,10 +270,9 @@
   	.img-bg {
   		overflow: hidden;
   		background: url('/images/341778467.jpg') no-repeat center center;
-	    background-attachment: fixed;
+	    background-attachment: scroll;
 	    background-size: cover;
-  		height: 650px;
-  		padding:300px;
+  		height: auto !important;
   		width: 100%;
   		-webkit-background-size: cover;
   	
