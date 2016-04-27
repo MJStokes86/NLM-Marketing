@@ -271,10 +271,10 @@
   		background: url('/images/341778467.jpg') no-repeat center center;
 	    background-attachment: fixed;
 	    background-size: cover;
-  		height: 320px;
+  		height: auto !important;
   		max-width: 100%;
   		width: 100%;
-  		z-index: -1;
+  		-webkit-background-size: 100%;
 
   		
   	}
