@@ -273,6 +273,8 @@
 	    background-size: cover;
 	    min-height:320px ;
   		min-width:568px;
+  		max-height: 320px;
+  		max-width: 568px;
   		height: auto !important;
   		width: 100%;
   		-webkit-background-size: cover;
