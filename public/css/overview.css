@@ -274,7 +274,8 @@
   		height: auto !important;
   		max-width: 100%;
   		width: 100%;
-  		-webkit-background-size: 150%;
+  		-webkit-background-size: cover;
+  		margin-top: 50px;
 
   		
   	}
