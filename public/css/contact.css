@@ -229,6 +229,7 @@
 	background-size: cover;
 	background-attachment: scroll;
 	margin-left: -100px;
+	margin-top: -150px;
 }
 
 
@@ -264,7 +265,7 @@
 	font-size: 40px;
 	display: inline;
 	margin-left: -50px;
-	margin-top: 15px;
+	margin-top: 150px;
 
 }
 
