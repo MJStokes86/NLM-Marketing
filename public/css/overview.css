@@ -272,9 +272,10 @@
   		background: url('/images/341778467.jpg') no-repeat center center;
 	    background-attachment: scroll;
 	    background-size: cover;
+	    -webkit-background-size: cover;
   		height: auto !important;
   		width: 100%;
-  		-webkit-background-size: cover;
+  		
   	
 
   		
@@ -291,10 +292,11 @@
 
 
   	.img-bg2  {
-		height: auto !important`;
+		height: auto !important;
   		max-width: 100%;
   		width: 100%;
   		padding: 300px;
+  		background-attachment: scroll;
 	   
   		
   		

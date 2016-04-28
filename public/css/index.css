@@ -270,6 +270,7 @@ body {
   	.img-bg {
   		display:inline-block;
   		overflow: hidden;
+      background-attachment: scroll;
   		
   	}
 
@@ -283,6 +284,7 @@ body {
   		height: 1000px;
   		overflow: hidden;
   		width: 100%;
+      background-attachment: scroll;
   		
   		
 	  

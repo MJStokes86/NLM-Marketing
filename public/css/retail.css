@@ -278,7 +278,7 @@
   		width: 100%;
   		background: url('/images/53445475.jpg') no-repeat center center;
 	    background-size: cover;
-	    background-attachment: fixed;
+	    background-attachment: scroll;
 
   		
   	}
@@ -313,7 +313,7 @@
   .img-bg2 {
   	background:  url('/images/IMG_4327.JPG') no-repeat center center;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: scroll;
   }
 
   .img-bg2 p {

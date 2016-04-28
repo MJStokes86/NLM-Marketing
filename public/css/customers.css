@@ -258,7 +258,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		overflow: hidden;
 		background: url('/images/171787895.jpg') no-repeat center center;
 	    background-size: cover;
-	    background-attachment: fixed;
+	    background-attachment: scroll;
 
 
 	}
@@ -278,6 +278,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		height: 1500px;
 		display:inline-block;
 		overflow: hidden;
+		background-attachment: scroll;
 	}
 
 	.img-bg2 h1  {
