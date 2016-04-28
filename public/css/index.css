@@ -250,7 +250,8 @@ body {
 @media only screen /*iPhone*/
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
 
   	.navbar-img {
 	height: 100px;
