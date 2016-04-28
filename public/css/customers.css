@@ -247,6 +247,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		overflow: hidden;
 	}
 
+
+	
+.navbar .navbar-collapse{
+  border: none;
+}
+
+.navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+  border-bottom: none;
+  background: #550000;
+  box-shadow: none;
+ }
+
 	.content {
 		width: auto !important;
 		overflow: hidden;

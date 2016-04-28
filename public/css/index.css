@@ -24,6 +24,7 @@ body {
 
 .navbar {
 	padding: 20px 50px;
+
 }
 
 .navbar li {
@@ -264,8 +265,26 @@ body {
 
   	.navbar {
 	padding: 20px 25px;
+
 	
 }
+
+
+.navbar .navbar-collapse{
+  border: none;
+}
+
+.navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+  border-bottom: none;
+  background: #550000;
+  box-shadow: none;
+ }
+
+ 
+
+
 
   	.img-bg {
   		display:inline-block;

@@ -267,6 +267,20 @@
 
 
 
+.navbar .navbar-collapse{
+  border: none;
+}
+
+.navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+  border-bottom: none;
+  background: #550000;
+  box-shadow: none;
+ }
+
+
+
   	.img-bg {
   		overflow: hidden;
   		background: url('/images/341778467.jpg') no-repeat center center;
