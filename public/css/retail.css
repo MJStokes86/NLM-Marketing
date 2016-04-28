@@ -383,6 +383,21 @@
   font-size: 0.9em;
 }
 
+
+.img-bg {
+  		overflow: hidden;
+  		height: auto !important`;
+  		max-width: 100%;
+  		width: 100%;
+  		background: url('/images/53445475.jpg') no-repeat center center;
+	    background-size: 180%;
+	    background-attachment: fixed;
+	    margin-top: 150px;
+
+  		
+  	}
+
+
 }
 
 
