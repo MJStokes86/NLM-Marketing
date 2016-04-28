@@ -241,6 +241,7 @@
 	background: url('/images/supermarket-aisle.jpg') no-repeat center center;
 	background-size: cover;
 	background-attachment: scroll;
+	margin-left: -100px;
 }
 
 
@@ -255,20 +256,22 @@
 	display: inline;
 	left: 30px;
 	margin-top: -100px;
+	margin-left: -50px;
 }
 
 .content2 {
 	width: 100%;
 }
 
-.content2 h1 {
+.content2 h1, h2 {
 
--moz-transform:none;
+    -moz-transform:none;
  	-webkit-transform:none;	
 	 transform:none;
-	  -moz-animation: none;
- -webkit-animation: none;
- animation: none;
+	 -moz-animation: none;
+     -webkit-animation: none;
+      animation: none;
+       font-size: 25px;
 }
 
 #button {

@@ -271,13 +271,17 @@ body {
   		display:inline-block;
   		overflow: hidden;
       background-attachment: scroll;
+      margin-left: -100px;
   		
   	}
+
+    
 
 	#title {
   		font-size: 30px !important;
   		display: inline;
   		left: 30px;
+
   	}
 
   	.img-bg2  {
@@ -285,6 +289,7 @@ body {
   		overflow: hidden;
   		width: 100%;
       background-attachment: scroll;
+
   		
   		
 	  
@@ -299,7 +304,7 @@ body {
 
   	.content p {
   		font-size: 15px !important;
-  		margin-top: 15px;
+  		margin-top: 50px;
   	}
 
     #span-one, #span-two {
@@ -316,6 +321,7 @@ body {
 
   	.content2 p {
   		font-size: 1.5em;
+      margin-left: -50px;
   	}
 
   	.footer {

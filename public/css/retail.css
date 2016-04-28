@@ -277,15 +277,18 @@
   		max-width: 100%;
   		width: 100%;
   		background: url('/images/53445475.jpg') no-repeat center center;
-	    background-size: cover;
+	    background-size: 160%;
 	    background-attachment: scroll;
+	    margin-left: -100px;
+	    margin-top: -150px;
 
   		
   	}
 
   .img-bg p {
   	font-size: 17px !important;
-  	margin-top: -200px;
+  	margin-top: -50px;
+  	margin-left: -50px;
 
 
   }
@@ -293,6 +296,7 @@
   .content {
   	width: 100%;
   	overflow: hidden;
+  	height: 550px;
   }
 
   .content2 {
@@ -302,7 +306,8 @@
 
   .content2 p {
   	font-size: 15px !important;
-  	margin-top: 30px;
+  	margin-top: 50px;
+
   }
 
   .content3 {
@@ -319,6 +324,7 @@
   .img-bg2 p {
 	font-size: 17px !important;
 	margin-top: -250px;
+	margin-left: -50px;
 
   }
 

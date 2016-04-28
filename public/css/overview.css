@@ -285,6 +285,8 @@
   #img-pg p {
   	font-size: 20px !important;
   	margin-top: -100px;
+  	margin-left: -50px;
+  	text-align: center;
 
 
   }
@@ -298,6 +300,7 @@
   		width: 100%;
   		padding: 300px;
   		background-attachment: scroll;
+  		margin-left: -170px;
 	   
   		
   		
@@ -320,14 +323,19 @@
   	}
 
   	.content p {
-  		font-size: 10px !important;
-  		margin-top: 50px;
+  		font-size: 15px !important;
+  		margin-top: 20px;
   	}
 
   	.content2 {
 	overflow: hidden;
 	width: 100%;
 	
+}
+
+  .content2 p {
+  	margin-left: -50px;
+
 }
 
 
@@ -341,6 +349,7 @@
 
 .content3 p {
 	margin-top: 100px;
+
 }
 
 
