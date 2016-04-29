@@ -379,6 +379,35 @@
 
   	}
 
+  	@media only screen /*iPhone Landscape*/ 
+  	and (min-device-width: 667px)
+  	and (max-device-width: 375px)
+  	and (-webkit-min-device-pixel-ratio: 2) {
+  		
+
+
+  		.img-bg {
+		
+		background:  url('/images/IMG_4327.JPG') no-repeat center center;
+		background-attachment: scroll;
+	    background-size: cover;
+	    -webkit-background-size: cover;
+  		height: auto !important;
+  		width: 100%;
+  		margin-left: -100px;
+  		}
+
+
+  		.img-bg2 {
+
+	    background-size: cover;
+	    -webkit-background-size: cover;
+  		height: auto !important;
+  		width: 100%;
+  		margin-left: 100px;
+  		}
+  	}
+
   	@media only screen /*iPad*/
   and (min-device-width: 768px) 
   and (max-device-width: 1024px)
