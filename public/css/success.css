@@ -76,70 +76,30 @@
 }
 
 .content2 h1 {
-	/*position: absolute;*/
+
  	width: 100%;
  	height: 100%;
  	margin: 0;
  	line-height: 50px;
  	text-align: center;
- 	-moz-transform:translateX(100%);
- 	-webkit-transform:translateX(100%);	
-	 transform:translateX(100%);
-	  -moz-animation: content2 15s linear infinite;
- -webkit-animation:content2 15s linear infinite;
- animation: content2 15s linear infinite;
  color: #fff;
  text-transform: uppercase;
 
 }
 
-@-moz-keyframes content2 {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
 
-@-webkit-keyframes content2 {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes content2 {
- 0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%); 		
- }
- 100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%); 
- }
-}
 
 
 
 .img-bg {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/supermarket-aisle.jpg');
+	background: url('/images/supermarket-aisle.jpg');
 	background-size: cover;
 	padding: 300px;
 
 }
 
-#owl-demo {
-	width: 50%;
-	height: 50%;
-}
 
-
-
-#owl-demo .item h1 {
-	color: #000;
-	text-align: center;
-	display: block;
-
-}
-
-
-
+/* 
 .contact-row  {
 	margin-top: 0;
 	background-color: #282829;
@@ -152,7 +112,7 @@
 
 .contact-row h2 {
 	text-transform: uppercase;
-}
+} */
 
 .footer {
 	text-align: center;
@@ -160,7 +120,7 @@
 	background-color: #282829;
 }
 
-.form-group .form-control {
+/* .form-group .form-control {
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -175,7 +135,7 @@
 	padding: 20px;
 	color: #000;
 }
-
+ */
 @media only screen and (max-width: 48em)  { 
 
 	.img-bg {
@@ -278,7 +238,7 @@
 	width: 100%;
 }
 
-.content2 h1, h2 {
+/* .content2 h1, h2 {
 
     -moz-transform:none;
  	-webkit-transform:none;	
@@ -288,7 +248,7 @@
       animation: none;
        font-size: 25px;
 }
-
+ */
 #button {
 	left: 37%;
 }
