@@ -175,13 +175,37 @@
 
 @media only screen and (max-width: 48em)  { 
 
+
+.navbar-img {
+  height: 125px;
+  width: 125px;
+  position: relative;
+  top: -50px;
+  left: -75px;
+
+}
+
+
+ .navbar .navbar-collapse{
+  border: none;
+}
+
+ .navbar-default .navbar-nav .active a,
+ .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:focus {
+  border-bottom: none;
+  background: #550000;
+  box-shadow: none;
+ }
+
 	.img-bg {
 		height: 1500px;
 	}
 
 	.img-bg h1 {
 		position: absolute;
-		left: 30%;
+		margin-top: -100px;
+		margin-left: -230px;
 
 	}
 
@@ -189,9 +213,20 @@
 		height: 200px;
 	}
 
+	.content2 h1 {
+
+    -moz-transform:none;
+ 	-webkit-transform:none;	
+	 transform:none;
+	-moz-animation: none;
+    -webkit-animation: none;
+    animation: none;
+
+}
+
 	.footer {
 		position: relative;
-		bottom: -1050px;
+		bottom: -1250px;
 		padding: 50px;
 	}
 
