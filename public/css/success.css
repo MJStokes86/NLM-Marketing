@@ -274,6 +274,11 @@
   	and (max-device-width: 568px)
   	and (-webkit-min-device-pixel-ratio: 2)
   	and (orientation: landscape) {
+
+  	.img-bg {
+  		margin-left: 0;
+  	}
+  		
   		
 
 	.img-bg h1 {
