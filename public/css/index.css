@@ -356,6 +356,23 @@ body {
 
   	}
 
+    @media only screen /*iPhone Landscape*/ 
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      
+
+
+      .img-bg {
+    
+    background-size: cover;
+      -webkit-background-size: cover;
+      height: auto !important;
+      width: 100%;
+      margin-left: -20px;
+      }
+
 
    
    
