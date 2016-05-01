@@ -361,7 +361,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   	and (orientation: landscape) {
 
   		.img-bg {
-  			margin-left: 50px;
+  			margin-left: 10px;
   		}
 
   		.content {
