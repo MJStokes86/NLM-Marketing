@@ -412,11 +412,11 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-  .navbar-img {
-  height: 110px;
-  width: 110px;
+   .navbar-img {
+  height: 100px;
+  width: 100px;
   position: relative;
-  top: -40px;
+  top: -20px;
   left: -50px;
 
 }
@@ -424,15 +424,19 @@
 
 
     .navbar {
-  padding: 20px 25px;
+  padding: 5px 5px;
   
 }
 
-.navbar li a {
-  font-size: 0.8em;
-  margin-left: 30px;
-}
 
+
+.navbar li a {
+  font-size: 0.7em;
+  padding: 0;
+  margin-left: 50px;
+ 
+
+}
 
 .img-bg {
 	height: 650px;
@@ -446,6 +450,11 @@
 
 }
 
+.img-bg p {
+  	margin-left: -50px;
+  }
+
+
 
 .img-bg2  {
 		height: auto !important;
@@ -458,6 +467,54 @@
   		
 	  
   	}
+
+.content p {
+	margin-top: 30px;
+}
+
+
+ .img-bg2 p {
+  	margin-left: -50px;
+  }
+
+  .content3 p {
+  	margin-top: 60px;
+  }
+
+}
+
+
+
+ @media only screen /*iPad Landscape*/ 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+
+ .navbar-img {
+  position: relative;
+  top: -40px;
+  left: -50px;
+
+}
+
+ .navbar {
+  padding: 20px 25px;
+  
+}
+
+    
+.navbar li a {
+  font-size: 0.8em;
+  margin-left: 50px !important;
+  padding: 0;
+
+}
+
+.content p {
+	margin-top: 0;
+}
+
 
 }
 

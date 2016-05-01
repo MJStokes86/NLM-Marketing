@@ -41,14 +41,14 @@ post '/contact-us' do
 Pony.options = {
   :via => :smtp,
   :via_options => {
-    :address              => 'smtp.gmail.com',
+    :address              => 'smtp.zoho.com',
     :location 			  => '/c/sendmail/./sendmail',
     :ssl 				  => true,
     :arguments			  => '-t',
     :port                 => '465',
     # :enable_starttls_auto => true,
-    :user_name            => 'stokes8671@gmail.com',
-    :password             => "mjs242630135",
+    :user_name            => 'sales@nlm-marketing.com',
+    :password             => "sales1234",
     :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
     :domain               => "localhost",
     # :tls				  => true
@@ -57,7 +57,7 @@ Pony.options = {
 
 
 	Pony.mail(
-		:to => 'stokes8671@gmail.com', 
+		:to => 'sales@nlm-marketing.com', 
 		:from => first_name + '<' + mail + '>',
 		:reply_to => mail,
 		:subject => subject,

@@ -354,16 +354,31 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 
+ @media only screen /*iPhone Landscape*/ 
+  	and (min-device-width: 320px)
+  	and (max-device-width: 568px)
+  	and (-webkit-min-device-pixel-ratio: 2)
+  	and (orientation: landscape) {
+
+  		.img-bg h1 {
+			margin-top: -130px;
+			margin-left: -30px;
+  		}
+
+
+  		}
+
+
 @media only screen /*iPad*/
   and (min-device-width: 768px) 
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
   .navbar-img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   position: relative;
-  top: -40px;
+  top: -20px;
   left: -50px;
 
 }
@@ -371,13 +386,89 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 
     .navbar {
+  padding: 5px 5px;
+  
+}
+
+
+
+.navbar li a {
+  font-size: 0.7em;
+  padding: 0;
+  margin-left: 50px;
+ 
+
+}
+
+.content3 h1, h3 {
+	margin-left: 30px;
+}
+
+
+.distributor-div {
+		margin: 0 auto;
+		width: 170px;
+		margin-left: -30px;
+	}
+
+	#distributors li {
+		width: 70px;
+	}
+
+	#primary li {
+		width: 70px;
+	}
+
+}
+
+
+ @media only screen /*iPad Landscape*/ 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+
+  .navbar-img {
+  position: relative;
+  top: -40px;
+  left: -50px;
+
+}
+
+ .navbar {
   padding: 20px 25px;
   
 }
 
+
+    
 .navbar li a {
-  font-size: 0.9em;
+  font-size: 0.8em;
+  margin-left: 50px !important;
+  padding: 0;
+
 }
+
+
+ .img-bg2  {
+		height: 1500px;
+
+}
+
+
+.distributor-div {
+		margin: 0 auto;
+		width: 170px;
+		margin-left: 100px;
+	}
+
+	#distributors li {
+		width: 70px;
+	}
+
+	#primary li {
+		width: 70px;
+	}
 
 }
 
