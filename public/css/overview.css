@@ -393,7 +393,7 @@
 	    -webkit-background-size: cover;
   		height: auto !important;
   		width: 100%;
-  		margin-left: -20px;
+  		margin-left: 0;
   		}
 
 
@@ -403,7 +403,7 @@
 	    -webkit-background-size: cover;
   		height: auto !important;
   		width: 100%;
-  		margin-left: -20px;
+  		margin-left: 0;
   		}
   	}
 

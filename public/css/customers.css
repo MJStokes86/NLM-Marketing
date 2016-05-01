@@ -360,9 +360,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
   	and (-webkit-min-device-pixel-ratio: 2)
   	and (orientation: landscape) {
 
+  		.img-bg {
+  			margin-left: 0;
+  		}
+
+
+
   		.img-bg h1 {
 			margin-top: -130px;
 			margin-left: -30px;
+  		}
+
+  		.img-bg2 {
+  			margin-left: 0;
   		}
 
 

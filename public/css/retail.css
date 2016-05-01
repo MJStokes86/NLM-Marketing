@@ -357,6 +357,22 @@
 
 }
 
+ @media only screen /*iPhone Landscape*/ 
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      
+
+
+      .img-bg {
+      margin-left: 0;
+      }
+
+      .img-bg2 {
+      	margin-left: 0;
+      }
+
 
 @media only screen /*iPad*/
   and (min-device-width: 768px) 
