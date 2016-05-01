@@ -364,6 +364,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
   			margin-left: 0;
   		}
 
+  		.content {
+  			width: 100%;
+  		}
+
 
 
   		.img-bg h1 {
