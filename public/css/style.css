@@ -335,3 +335,134 @@ img {
 
 }
 
+
+@media only screen /*iPhone*/
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+   {
+
+
+  .navbar-img {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  top: -30px;
+  left: -70px;
+
+}
+
+
+
+
+  	.img-bg {
+  		background-position: center;
+  	}
+
+    
+
+	#img-bg-text {
+  		font-size: 2em !important;
+  		margin-top: 75%;
+  		
+
+  	}
+
+  	.content-block p {
+  		font-size: 0.7em;
+  	}
+
+  	#img2 p {
+  		font-size: 1.5em !important;
+  	}
+
+  	#img3 p {
+  		font-size:1.5em !important;
+  		margin-top: 60%;
+  	}
+
+  	#img4 p {
+  		font-size:1.3em !important;
+  		margin-top: 50%;
+  	}
+
+  	#img5 p {
+  		font-size: 1.5em !important;
+  		margin-top: 50%;
+  	}
+
+  	#img7 p {
+  		font-size: 2.8em !important;
+  	}
+
+  	#img9 p {
+  		font-size: 1.5em !important;
+  		margin-top: 60%;
+  	}
+
+  	#img10 p {
+  		font-size: 1.5em !important;
+  		margin-top: 40%;
+  	}
+
+
+
+  	.list {
+  		text-align: center;
+  	}
+
+  	.list li {
+  		font-size: 0.6em !important;
+  		margin-left: 10%;
+  		
+  	}
+
+ 
+    #span-one {
+      font-size: 1.2em !important;
+    }
+
+    #success {
+    	font-size: 1em;
+    }
+
+    
+
+
+   img {
+   	height: 50px;
+   	width: 50px;
+   }
+
+   .scrolling-text h1 {
+   	-moz-transform:none;
+ 	-webkit-transform:none;	
+	 transform:none;
+	-moz-animation: none;
+    -webkit-animation: none;
+    animation: none;
+
+    font-size: 1em !important;
+   }
+
+   #button {
+   	margin-left: -10%;
+   }
+
+
+
+
+  	
+
+  	.footer {
+  		overflow: hidden;
+	    width: 100%;
+  		position: absolute;
+
+  
+
+  		
+  	}
+
+  	}
+
