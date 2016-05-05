@@ -357,6 +357,7 @@ img {
 
   	.img-bg {
   		background-position: center;
+  		background-attachment: scroll;
   	}
 
     
