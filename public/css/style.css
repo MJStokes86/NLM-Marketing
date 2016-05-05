@@ -105,7 +105,7 @@ body {
 	/* font-size: 50px !important; */
 	font-family: 'Work Sans', sans-serif !important;
     text-shadow: 2px 2px #000;
-    margin-top: 18%;
+    margin-top: 25%;
 
 
 }
@@ -182,10 +182,16 @@ body {
 	margin-top: 5%;
 
 
+
+}
+
+.list h1 {
+	text-align: center;
 }
 
 .list li {
 	list-style-image: url('/images/right-icon1.gif');
+	margin-left: 30%;
 	
 }
 
@@ -413,8 +419,9 @@ img {
   	}
 
   	.list li {
-  		font-size: 0.6em !important;
+  		font-size: 0.7em !important;
   		margin-left: 10%;
+  		font-family: Arial;
   		
   	}
 
