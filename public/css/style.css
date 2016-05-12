@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Michroma);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:900);
 @import url(https://fonts.googleapis.com/css?family=Timmana);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 
 
@@ -12,6 +13,9 @@
 
 body {
 	-webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif !important;
+
+
 }
 
 .navbar-img {
@@ -60,7 +64,7 @@ body {
 
 .navbar-text-color li a {
 	color: #fff !important;
-  font-family: 'Arial';
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 15px;
   /*text-shadow: 2px 1px #000*/;
@@ -96,19 +100,24 @@ body {
 
 
 
+
 }
 
 
 #img-bg-text {
 	text-align: center;
 	color: #fff !important;
-	/* font-size: 50px !important; */
-	font-family: 'Work Sans', sans-serif !important;
-    text-shadow: 2px 2px #000;
-    margin-top: 25%;
+/* 	font-size: 50px !important; */
+  font-weight: 700;
+  margin-top: 25%;
+   text-shadow: 2px 2px #000;
+  
 
+ 
 
 }
+
+
 
 #sub-text {
 
@@ -120,40 +129,40 @@ body {
 }
 
 #img1 {
-	background-image: url('/images/img1.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img1.jpg');
 }
 
 #img2 {
-	background-image: url('/images/img2.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img2.jpg');
 }
 
 #img3 {
-	background-image: url('/images/img3.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img3.jpg');
 }
 
 #img4 {
-	background-image: url('/images/img4.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url('/images/img4.jpg');
 }
 #img5 {
-	background-image: url('/images/img5.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img5.jpg');
 }
 #img6 {
-	background-image: url('/images/img6.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url('/images/img6.jpg');
 }
 #img7 {
-	background-image: url('/images/img7.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img7.jpg');
 }
 #img8 {
-	background-image: url('/images/img8.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img8.jpg');
 }
 #img9 {
-	background-image: url('/images/img9.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img9.jpg');
 }
 #img10 {
-	background-image: url('/images/img10.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img10.jpg');
 }
 #img11 {
-	background-image:url('/images/img11.jpg');
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2)), url('/images/img11.jpg');
 }
 
 
@@ -175,8 +184,8 @@ body {
 .list {
 	color: #fff;
 	/* text-align: center; */
-	font-family: Work Sans, sans-serif;
-	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
 	text-shadow: 2px 2px #000;
 	padding: 0;
 	margin-top: 5%;
@@ -187,7 +196,10 @@ body {
 
 .list h1 {
 	text-align: center;
+  font-family: Work Sans;
+
 }
+
 
 .list li {
 	list-style-image: url('/images/right-icon1.gif');
@@ -231,12 +243,14 @@ img {
 }
 
 
+
+
 .contact-row  {
 	margin-top: 0;
 	background-color: #282829;
 	padding-bottom: 500px;
 	padding-top: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	color: #fff;
 }
 
@@ -247,6 +261,7 @@ img {
 	margin-right: auto;
 	border-radius: 0;
 	color: #000;
+  margin-top: 0;
 }
 
 #button {
