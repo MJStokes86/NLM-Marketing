@@ -204,6 +204,7 @@ body {
 .list li {
 	list-style-image: url('/images/right-icon1.gif');
 	margin-left: 30%;
+  font-family: Montserrat, sans-serif;
 	
 }
 
