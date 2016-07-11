@@ -38,32 +38,33 @@ post '/contact-us' do
 	subject = params[:subject]
 	body  = params[:body]
 
-Pony.options = {
-  :via => :smtp,
-  :via_options => {
-    :address              => 'smtp.zoho.com',
-    :location 			  => '/c/sendmail/./sendmail',
-    :ssl 				  => true,
-    :arguments			  => '-t',
-    :port                 => '465',
-    # :enable_starttls_auto => true,
-    :user_name            => 'sales@nlm-marketing.com',
-    :password             => "sales1234",
-    :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-    :domain               => "localhost",
-    # :tls				  => true
-  }
-}
 
 
-	Pony.mail(
-		:to => 'sales@nlm-marketing.com', 
-		:from => first_name + '<' + mail + '>',
-		:reply_to => mail,
-		:subject => subject,
-		:body => body)
+
+Pony.mail({
+	:to => 'merchandising@nlm-marketing.com',
+	:from => first_name + '<' + mail + '>',
+	:reply_to => mail,
+	:subject => subject,
+	:body => body, 
+	:via => :smtp,
+	:via_options => {
+		:address => 'smtp.zoho.com',
+		:port => 465,
+		:user_name => 'merchandising@nlm-marketing.com',
+		:password => 'Nate0427',
+		:authentication => :login,
+		:ssl => true,
+		:tls => true,
+		:enable_starttls_auto => true
 		
-	
+	}
+	})
+
+
+
+
+
 
 	redirect '/success'
 end
