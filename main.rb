@@ -42,21 +42,23 @@ post '/contact-us' do
 
 
 Pony.mail({
-	:to => 'merchandising@nlm-marketing.com',
-	:from => first_name + '<' + mail + '>',
+	:to => 'fmiranda@nlm-marketing.com',
+	:from => first_name + last_name + '<' + mail + '>',
 	:reply_to => mail,
 	:subject => subject,
 	:body => body, 
 	:via => :smtp,
 	:via_options => {
-		:address => 'smtp.zoho.com',
+		:address => 'smtp.gmail.com',
 		:port => 465,
-		:user_name => 'merchandising@nlm-marketing.com',
+		:user_name => 'nlmmarketingfs@gmail.com',
 		:password => 'Nate0427',
 		:authentication => :login,
 		:ssl => true,
-		:tls => true,
-		:enable_starttls_auto => true
+		# :tls => true,
+		:enable_starttls_auto => true,
+		:domain => 'gmail.com'
+
 		
 	}
 	})
